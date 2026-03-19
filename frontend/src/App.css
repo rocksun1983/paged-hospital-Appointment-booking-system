@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f5f7fb;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #1e40af;
+}
+
+input, select {
+  padding: 10px;
+  width: 100%;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.navbar {
+  background: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+}
+.notification {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 6px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+  background: #1976d2;
+  color: white;
+}
+
+.nav-links a {
+  margin-right: 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.logout-btn {
+  background: #ff5252;
+  border: none;
+  padding: 8px 14px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.dashboard-container {
+  padding: 40px;
+}
+
+.calendar-section {
+  margin-bottom: 120px;
+ 
+}
+
+.slot-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 120px);
+  gap: 15px;
+}
+
+.slot-btn {
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #1976d2;
+  background: white;
+  cursor: pointer;
+}
+
+.slot-btn.selected {
+  background: #1976d2;
+  color: white;
+}
+
+.booked-label {
+  display: block;
+  font-size: 12px;
+  color: red;
+}
+
+.primary-btn {
+  padding: 12px 20px;
+  background: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.payment-btn {
+  padding: 12px 20px;
+  background: #ff9800;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.auth-links {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+
